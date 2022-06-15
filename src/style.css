@@ -1,0 +1,113 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins','roboto','Courier New', Courier, monospace;
+}
+.bl{
+    vertical-align: baseline !important;
+  
+}
+.bg-blue{
+    background-color:#1372b4 !important;
+    color: #fff;
+    text-align: center;
+}
+.bg-red{
+    background-color: #d21419;
+}
+.text-red{
+    color: #d21419;
+}
+.text-blue{
+    color: #1372b4 !important;
+}
+.bg-ep{
+    background-color: #0f355a !important;
+}
+.text-ep{
+    color: #0f355a !important;
+}
+nav {
+    background-color: #fff !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-family: 'Poppins','roboto','Courier New', Courier, monospace;
+}
+.carousel-inner{
+    margin-top: 0.5em;
+    max-height: 500px !important;
+}
+.bg-white{
+    background-color: #fff;
+}
+.barre-div{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 2em !important;
+}
+.about p{
+    font-size: 30px !important;
+    vertical-align: baseline;
+    color: rgb(131, 131, 131);
+    font-weight: bold;
+}
+.about img{
+    vertical-align: baseline !important;
+}
+.icon-services{
+    font-size: 70px;
+}
+.cart-service:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+  /* .cart-service span:before
+  {
+    content: '';
+    position: absolute;
+    width:50%;
+    height: 2px;
+    background: #50dfdb;
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+  } */
+/* .banner-text {
+    animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+    border-right: 2px solid;
+  } */
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
